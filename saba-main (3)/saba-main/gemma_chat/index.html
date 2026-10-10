@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Girl Chat</title>
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- 左側 -->
+    <div class="left">
+
+        <!-- 立ち絵 -->
+        <img src="girl.png" class="character">
+
+        <div class="profile">
+
+            <div class="profile-header">
+                エルフィ
+            </div>
+
+            <div class="profile-body">
+                こんにちは〜！<br>
+                今日は何をお話しする？
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 右側 -->
+    <div class="right">
+
+        <div class="header">
+            エルフィ
+        </div>
+
+        <div class="chat" id="chat">
+
+            <div class="row bot">
+
+                <img src="girl_icon.jpeg" class="icon">
+
+                <div class="message">
+                    こんにちは〜！<br>
+                    お話しできて嬉しいな♪
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input
+                id="message"
+                placeholder="メッセージを入力...">
+
+            <button onclick="sendMessage()">
+                送信
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- JavaScriptファイルの読み込み -->
+<script src="script.js"></script>
+</body>
+</html>
